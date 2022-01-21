@@ -1,6 +1,6 @@
 # mol2chemfigPy3
 
-Current version 1.4.3 (transferred from mol2chemfig v1.4).
+Current version 1.4.33 (transferred from mol2chemfig v1.4).
 
 This is NOT an official version of mol2chemfig for python 3.
 
@@ -14,24 +14,6 @@ mol2chemfigPy3 is a simple translation from py2 to py3 based on old mol2chemfig 
 bugs.
 
 ## Install
-
-### build from source
-
-this requires `setuptools` and `wheel` installed
-
-* first `cd` to where `setup.py` locates
-
-  ```bash
-  $ cd <path>
-  ```
-
-* then run
-
-  ```bash
-  $ pip install ./
-  ```
-
-If you prefer installing from wheel, you can download [here](https://github.com/Augus1999/mol2chemfigPy3/releases).
 
 ### install from PyPi
 
