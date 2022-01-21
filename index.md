@@ -99,6 +99,8 @@ The static callgraph of this project is:
 
 ![callgraph](https://user-images.githubusercontent.com/39725660/150572167-53659b7a-e566-4913-8b8b-f79a175bb454.svg)
 
+[large image](https://user-images.githubusercontent.com/39725660/150572167-53659b7a-e566-4913-8b8b-f79a175bb454.svg)
+
 ## Document
 
 See official document [mol2chemfig-doc.pdf (uwaterloo.ca)](http://chimpsky.uwaterloo.ca/m2cf_static/mol2chemfig-doc.pdf)
