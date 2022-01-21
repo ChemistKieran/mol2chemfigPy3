@@ -97,7 +97,7 @@ mol2chemfig('.\methanol.smi')  # from a file
 
 The static callgraph of this project is:
 
-![callgraph](https://github.com/Augus1999/mol2chemfigPy3/blob/gh-pages/callgraph.svg)
+![callgraph](https://user-images.githubusercontent.com/39725660/150572167-53659b7a-e566-4913-8b8b-f79a175bb454.svg)
 
 ## Document
 
