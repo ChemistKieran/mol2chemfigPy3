@@ -93,6 +93,12 @@ mol2chemfig('C1=CC=C(C=C1)O')  # transfer InChI/SMILES to chemfig
 mol2chemfig('.\methanol.smi')  # from a file
 ```
 
+## To future maintainers
+
+The static callgraph of this project is:
+
+![callgraph](https://github.com/Augus1999/mol2chemfigPy3/blob/gh-pages/callgraph.svg)
+
 ## Document
 
 See official document [mol2chemfig-doc.pdf (uwaterloo.ca)](http://chimpsky.uwaterloo.ca/m2cf_static/mol2chemfig-doc.pdf)
