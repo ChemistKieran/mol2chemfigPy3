@@ -4,11 +4,6 @@ Current version 1.5.0 (transferred from mol2chemfig v1.5).
 
 This is NOT an official version of mol2chemfig for python 3.
 
-There are always too few free tools for chemistry, while mol2chemfig is a good one of them. But it was written in
-python2. Nowadays, who are still using py2? LOL
-
-Simply applying 2to3 to it doesn't work, alas.
-
 mol2chemfigPy3 is a simple translation from py2 to py3 based on old mol2chemfig version 1.5 (python codes are the same as 1.4🤔[mol2chemfig (uwaterloo.ca)](http://chimpsky.uwaterloo.ca/mol2chemfig/download)).
 ## Install
 
@@ -94,9 +89,9 @@ mol2chemfig('.\methanol.smi')  # from a file
 
 The static callgraph of this project is:
 
-![callgraph](https://user-images.githubusercontent.com/39725660/150572167-53659b7a-e566-4913-8b8b-f79a175bb454.svg)
+![callgraph](https://user-images.githubusercontent.com/39725660/151780413-ceea35ac-4199-4c4d-966b-2be5e6a68633.svg)
 
-[large image](https://user-images.githubusercontent.com/39725660/150572167-53659b7a-e566-4913-8b8b-f79a175bb454.svg)
+[large image](https://user-images.githubusercontent.com/39725660/151780413-ceea35ac-4199-4c4d-966b-2be5e6a68633.svg)
 
 ## Document
 
