@@ -1,10 +1,12 @@
 # mol2chemfigPy3
 
-Current version 1.5.1 (transferred from mol2chemfig v1.5).
+Current version 1.5.1
 
 This is NOT an official version of mol2chemfig for python 3.
 
-mol2chemfigPy3 is a simple translation from py2 to py3 based on old mol2chemfig version 1.5 (python codes are the same as 1.4🤔[mol2chemfig (uwaterloo.ca)](http://chimpsky.uwaterloo.ca/mol2chemfig/download)).
+mol2chemfigPy3 is a simple translation from py2 to py3 based on
+old [mol2chemfig](http://chimpsky.uwaterloo.ca/mol2chemfig/download) version 1.5.
+
 ## Install
 
 ### install from PyPi
@@ -21,7 +23,23 @@ $ pip install -U mol2chemfigPy3
 
 > Attention: to render the colours on Windows platform, run it in modern terminals, e.g. ___Windows Terminal___.
 
-Run, for example:
+> `mol2chemfig` and `python -m mol2chemfigPy3` are equivalent.
+
+#### 1. getting version
+
+```bash
+$ mol2chemfig --version
+```
+
+#### 2. getting help
+
+```bash
+$ mol2chemfig -h
+```
+
+#### 3. some examples
+
+##### 3.1 converting SMILES
 
 ```bash
 $ mol2chemfig -zw -i direct "C1=CC=C(C=C1)O"
@@ -29,7 +47,7 @@ $ mol2chemfig -zw -i direct "C1=CC=C(C=C1)O"
 
 it will give you `\chemfig{OH-[:180,,1]=_[:240]-[:180]=_[:120]-[:60]=_(-[:300])}`
 
-Run, for another example:
+##### 3.2 writing to an output file
 
 ```bash
 $ mol2chemfig -zw -i direct "C1=CC=C(C=C1)O" > phenol-smi-terse.tex
@@ -37,7 +55,7 @@ $ mol2chemfig -zw -i direct "C1=CC=C(C=C1)O" > phenol-smi-terse.tex
 
 it will write result to file `phenol-smi-terse.tex`
 
-Run, for again another example:
+##### 3.3 searching PubChem database
 
 ```bash
 $ mol2chemfig -zw -i pubchem 99
@@ -71,7 +89,7 @@ it will give you
 
 ### Use as a python package (new add in to this python 3 version)
 
-This is not included in the old Py2 version of mol2chemfig.
+This is not included in the original Py2 version of mol2chemfig.
 
 > mol2chemfigPy3.___mol2chemfig___(content: _str_, *args: _str_, rotate: _float = 0.0_, aromatic: _bool = True_, marker: _Optional[str] = None_, name: _Optional[str] = None_, relative_angle: _bool = False_, show_carbon: _bool = False_, show_methyl: _bool = False_, inline: _bool = False_)
 
@@ -84,7 +102,7 @@ mol2chemfig('996')  # search the PubChem database
 
 mol2chemfig('C1=CC=C(C=C1)O')  # transfer InChI/SMILES to chemfig
 
-mol2chemfig('.\methanol.smi')  # from a file
+mol2chemfig('./methanol.smi')  # from a file
 ```
 
 ## To future maintainers
