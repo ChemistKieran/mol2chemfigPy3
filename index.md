@@ -1,6 +1,6 @@
 # mol2chemfigPy3
 
-Current version 1.5.1
+Current version 1.5.2
 
 This is NOT an official version of mol2chemfig for python 3.
 
