@@ -1,17 +1,16 @@
 # mol2chemfigPy3
 
-Current version 1.5.2
+[![PyPI](https://img.shields.io/pypi/v/mol2chemfigPy3?color=ff69b4)](https://pypi.org/project/mol2chemfigPy3/)
+[![Downloads](https://static.pepy.tech/personalized-badge/mol2chemfigpy3?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/mol2chemfigpy3)
 
 This is NOT an official version of mol2chemfig for python 3.
 
-mol2chemfigPy3 is a simple translation from py2 to py3 based on
+mol2chemfigPy3 is a translation from py2 to py3 based on
 old [mol2chemfig](http://chimpsky.uwaterloo.ca/mol2chemfig/download) version 1.5.
 
 ## Install
 
 ### install from PyPi
-
-[![Downloads](https://static.pepy.tech/personalized-badge/mol2chemfigpy3?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/mol2chemfigpy3)
 
 ```bash
 $ pip install -U mol2chemfigPy3
@@ -83,9 +82,6 @@ it will give you
 -[:95.9,0.62]H)=[:335.9](-[:35.9](-[:35.9,0.62]H)(-[:125.9,0.62]H)%
 -[:305.9,0.62]H)-[:275.9](-[:185.9,0.62]H)(-[:275.9,0.62]H)-[:5.9,0.62]H}
 ```
-
-(it's [Coenzyme A, S-(3-methyl-2-butenoate)](https://pubchem.ncbi.nlm.nih.gov/compound/99#section=Synonyms) by the way
-😜)
 
 ### Use as a python package (new add in to this python 3 version)
 
